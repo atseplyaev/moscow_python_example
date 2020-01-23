@@ -1,7 +1,8 @@
-citis = {"city":"Москва", "temperature":20}
+cities = {"city":"Москва", "temperature":20}
 
-print(citis["city"])
+print(cities["city"])
+cities["temperature"]-=5
 
-citis["temperature"]-=5
+print(cities)
 
 print(citis["temperature"])
